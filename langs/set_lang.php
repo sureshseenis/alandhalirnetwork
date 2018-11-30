@@ -10,5 +10,7 @@ default:
 	$_SESSION['language'] = "English";
 	include_once $path."langs/english.php";
 	break;
+	
+
 }
 ?>

@@ -21,7 +21,7 @@ include_once $path."langs/set_lang.php";
 ?>
 <html dir="<? echo lang('html_dir'); ?>">
 <head>
-    <title><? echo lang('welcome'); ?> | Wallstant</title>
+    <title><? echo lang('welcome'); ?> | Alandhalir</title>
     <meta charset="UTF-8">
     <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
     <meta name="keywords" content="homepage,main,login,social network,social media,Wallstant,meet,free platform">
@@ -31,27 +31,27 @@ include_once $path."langs/set_lang.php";
 </head>
     <body class="login_signup_body">
     <!--============[ Nav bar ]============-->
-        <div class="login_signup_navbar">
-                <a href="index" class="login_signup_navbarLinks">Wallstant</a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('help'); ?></a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('terms'); ?></a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('privacyPolicy'); ?></a>
-                <div style="float: <? echo lang('float2'); ?>;">
-                    <a href="login" class="login_signup_btn1"><? echo lang('login'); ?></a>
-                    <a href="signup" class="login_signup_btn2"><? echo lang('signup'); ?></a>
-                </div>
+           <div class="login_signup_navbar">
+        <a href="index" class="login_signup_navbarLinks">Alandhalir</a>
+        <a href="#" class="login_signup_navbarLinks">Help</a>
+        <a href="#" class="login_signup_navbarLinks">Tearms</a>
+        <a href="#" class="login_signup_navbarLinks">Privacy Policy</a>
+        <div style="float: right">
+            <a href="login" class="login_signup_btn1">Login</a>
+            <a href="signup" class="login_signup_btn2">SignUp</a>
         </div>
+    </div>
         <!--============[ main contains ]============-->
         <div class="login_signup_box">
-        <h3 align="center"><? echo lang('welcome_to'); ?> Wallstant</h3>
+        <h3 align="center"><? echo lang('welcome_to'); ?> Alandhalir</h3>
         <p align="center" style="color: #999; margin-bottom: 25px;"><? echo lang('wallstant_main_string'); ?>.</p>
             <div style="display: flex;">
                 <div style="width: 100%;">
                     <br><h4><? echo lang('login_now'); ?></h4>
-                    <p><input type="text" name="login_username" id="un" class="login_signup_textfield" placeholder="<? echo lang('email_or_username'); ?>"/></p>
-                    <p><input type="password" name="login_password" id="pd" class="login_signup_textfield" placeholder="<? echo lang('password'); ?>"/></p>
-                    <p><a href="#" style="color: #a2a2a2; font-size: 11px; float: <? echo lang('float2'); ?>;"> <? echo lang('forgot_password'); ?></a></p>
-                    <button type="submit" class="login_signup_btn1" id="loginFunCode"><? echo lang('login'); ?></button>
+                    <p><input type="text" name="login_username" id="un" class="login_signup_textfield" placeholder="Enter Login Username"/></p>
+                    <p><input type="password" name="login_password" id="pd" class="login_signup_textfield" placeholder="Password"/></p>
+                    <p><a href="#" style="color: #a2a2a2; font-size: 11px; float: <? echo lang('float2'); ?>;"> Forget Password</a></p>
+                    <button type="submit" class="login_signup_btn1" id="loginFunCode">SignIn</button>
                     <p id="login_wait" style="margin: 0px;"></p>
                 </div>
                 <div style="width: 100%;text-align: center;">
@@ -60,7 +60,7 @@ include_once $path."langs/set_lang.php";
             </div>
         </div>
         <div style="background: #fff; border-radius: 3px; max-width: 800px; padding: 15px; margin:auto;margin-top: 15px;color: #7b7b7b;" align="center">
-            <? echo lang('dont_have_an_account'); ?> <a href="signup"><? echo lang('signup'); ?></a> <? echo lang('for_free'); ?>.<hr style="margin: 8px;">
+            <? echo lang('dont_have_an_account'); ?> <a href="signup">SignUp</a> <? echo lang('for_free'); ?>.<hr style="margin: 8px;">
                 <a href="?lang=english">English</a> &bull; <a href="?lang=العربية">العربية</a>
         </div>
 

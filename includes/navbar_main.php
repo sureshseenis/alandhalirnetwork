@@ -32,7 +32,7 @@ if ($uCheckSessionCount == 0) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo $dircheckPath; ?>home">Wallstant</a>
+            <a class="navbar-brand" href="<?php echo $dircheckPath; ?>home">Alandhalir</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="<?php echo lang('ul_navbar_nav1'); ?>">
@@ -104,10 +104,11 @@ if ($uCheckSessionCount == 0) {
                             echo "
                             <li class=\"divider\"></li>
                             <li class='dropdown-header'>".lang('adminOptions')."</li>
-                        <li><a href=\"".$dircheckPath."toacpnlp/?adb=General\"> ".lang('dashboard')."</a></li>
+                       
                             ";
                         }
                         ?>
+						 <!--<li><a href=\"".$dircheckPath."toacpnlp/?adb=General\"> ".lang('dashboard')."</a></li>-->
                         <li class="divider"></li>
                         <li><a href="<?php echo $dircheckPath; ?>settings"> <?php echo lang('settings'); ?></a></li>
                         <li><a href="#" data-toggle="modal" data-target="#alertModal"> <?php echo lang('terms'); ?></a></li>

@@ -10,7 +10,7 @@ if(!isset($_SESSION['Username'])){
 ?>
 <html dir="<?php echo lang('html_dir'); ?>">
 <head>
-    <title>GOMELIA | HOMEPAGE</title>
+    <title>Alandhalir | HOMEPAGE</title>
     <?php include "includes/head_imports_main.php";?>
 </head>
 <body onload="hide_notify()">

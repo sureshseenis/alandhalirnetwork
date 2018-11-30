@@ -21,10 +21,10 @@ include_once $path."langs/set_lang.php";
 ?>
 <html dir="<? echo lang('html_dir'); ?>">
 <head>
-    <title><? echo lang('login'); ?> | Wallstant</title>
+    <title><? echo lang('login'); ?> | Alandhalir</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Wallstant is a social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
-    <meta name="keywords" content="login,social network,social media,Wallstant,meet,free platform">
+    <meta name="description" content="Alandhalir is Village social network platform helps you meet new friends and stay connected with your family and with who you are interested anytime anywhere.">
+    <meta name="keywords" content="login,social network,social media,Alandhalir,meet,free platform">
     <meta name="author" content="Munaf Aqeel Mahdi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include "includes/head_imports_main.php";?>
@@ -32,27 +32,27 @@ include_once $path."langs/set_lang.php";
     <body class="login_signup_body">
     <!--============[ Nav bar ]============-->
         <div class="login_signup_navbar">
-                <a href="index" class="login_signup_navbarLinks">Wallstant</a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('help'); ?></a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('terms'); ?></a>
-                <a href="#" class="login_signup_navbarLinks"><? echo lang('privacyPolicy'); ?></a>
-                <div style="float: <? echo lang('float2'); ?>;">
-                    <a href="login" class="login_signup_btn1"><? echo lang('login'); ?></a>
-                    <a href="signup" class="login_signup_btn2"><? echo lang('signup'); ?></a>
-                </div>
+        <a href="index" class="login_signup_navbarLinks">Alandhalir</a>
+        <a href="#" class="login_signup_navbarLinks">Help</a>
+        <a href="#" class="login_signup_navbarLinks">Tearms</a>
+        <a href="#" class="login_signup_navbarLinks">Privacy Policy</a>
+        <div style="float: right">
+            <a href="login" class="login_signup_btn1">Login</a>
+            <a href="signup" class="login_signup_btn2">SignUp</a>
         </div>
+    </div>
         <!--============[ main contains ]============-->
         <div align="center">
             <div class="login_signup_box2" style="text-align:<? echo lang('textAlign'); ?>">
                 <h4 align="center"><? echo lang('login_now'); ?></h4><br/>
-                <p><input type="text" name="login_username" id="un" class="login_signup_textfield" placeholder="<? echo lang('email_or_username'); ?>"/></p>
-                <p><input type="password" name="login_password" id="pd" class="login_signup_textfield" placeholder="<? echo lang('password'); ?>"/></p>
-                <p><a href="#" style="color: #a2a2a2; font-size: 11px; float: <? echo lang('float2'); ?>;"> <? echo lang('forgot_password'); ?></a></p>
-                <button type="submit" class="login_signup_btn1" id="loginFunCode"><? echo lang('login'); ?></button>
+                <p><input type="text" name="login_username" id="un" class="login_signup_textfield" placeholder="Email or Username"/></p>
+                <p><input type="password" name="login_password" id="pd" class="login_signup_textfield" placeholder="Password"/></p>
+                <p><a href="#" style="color: #a2a2a2; font-size: 11px; float: <? echo lang('float2'); ?>;"> Forget Password</a></p>
+                <button type="submit" class="login_signup_btn1" id="loginFunCode">Login</button>
                 <p id="login_wait" style="margin: 0px;"></p>
             </div>
             <div style="background: #fff; border-radius: 3px; max-width: 420px; padding: 15px; margin:auto;margin-top: 15px;color: #7b7b7b;" align="center">
-                <? echo lang('dont_have_an_account'); ?> <a href="signup"><? echo lang('signup'); ?></a> <? echo lang('for_free'); ?>.<hr style="margin: 8px;">
+                Don't have account?<a href="signup">Sign Up</a> <? echo lang('for_free'); ?>.<hr style="margin: 8px;">
                 <a href="?lang=english">English</a> &bull; <a href="?lang=العربية">العربية</a>
             </div>
         </div>
