@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "wallstant";
+$username = "alandhalir_socia";
+$password = "alandhalir_social_network";
+$dbname = "alandhalir_social_network";
 
 try 
     {
